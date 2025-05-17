@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rivaldo Catalin Craia - Marca Personal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      position: relative;
+      text-align: center;
+      color: white;
+      height: 320px;
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 15px;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      font-style: italic;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    }
+    nav {
+      background-color: #003580;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 12px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto 70px;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-bottom: 2px solid #004aad;
+      padding-bottom: 6px;
+      margin-bottom: 18px;
+      color: #004aad;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    footer {
+      background-color: #003580;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .contact-info {
+      margin-bottom: 10px;
+      flex-basis: 100%;
+      text-align: center;
+    }
+    .social-icons a {
+      display: inline-block;
+      margin: 0 8px;
+      font-size: 22px;
+      color: #ffd700;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #ffa500;
+    }
+    /* Formulari simple */
+    form {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+    }
+    label {
+      margin: 8px 0 4px 0;
+    }
+    input, textarea {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    button {
+      margin-top: 12px;
+      padding: 10px;
+      background-color: #004aad;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #003580;
+    }
+    /* Banda Instagram simulada */
+    .instagram-band {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 10px 0;
+    }
+    .instagram-band img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 6px;
+      flex-shrink: 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .instagram-band img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Responsive */
+    @media(max-width:600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      header p {
+        font-size: 1em;
+      }
+      nav {
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .instagram-band img {
+        width: 90px;
+        height: 90px;
+      }
+      form {
+        max-width: 100%;
+      }
+    }
+
+  </style>
+  <!-- Fonts Icons (FontAwesome CDN) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+  <h1>Rivaldo Catalin Craia</h1>
+  <p>Compromís, versatilitat i actitud positiva en logística i suport administratiu</p>
+</header>
+
+<nav>
+  <a href="#presentacio">Sobre mi</a>
+  <a href="#cv">Currículum</a>
+  <a href="#projectes">Projectes</a>
+  <a href="#serveis">Serveis</a>
+  <a href="#contacte">Contacte</a>
+</nav>
+
+<main>
+  <section id="presentacio">
+    <h2>Presentació Personal</h2>
+    <p>
+      Sóc <strong>Rivaldo Catalin Craia</strong>, un professional polivalent amb experiència en logística, seguretat, atenció al client i suport administratiu. Destaco per la meva capacitat d’adaptació, responsabilitat i actitud positiva. Em motiva aprendre constantment i aportar valor en tot el que faig. Estic orientat a l’acció, el treball en equip i la millora contínua.
+    </p>
+  </section>
+
+  <section id="cv">
+    <h2>Currículum Vitae</h2>
+    <h3>Dades Personals</h3>
+    <ul>
+      <li><strong>Ubicació:</strong> Lleida, Espanya</li>
+      <li><strong>Email:</strong> rivaldo.catalin12@gmail.com</li>
+      <li><strong>Telèfon:</strong> 642 720 494</li>
+      <li><strong>Idiomes:</strong> Espanyol, Català, Anglès, Romanès</li>
+    </ul>
+
+    <h3>Experiència Professional</h3>
+    <ul>
+      <li><strong>Mozo de almacén</strong> – Bricodepot (2024)</li>
+      <li><strong>Carretiller</strong> – Lactalis Puleva (2023)</li>
+      <li><strong>Vigilant de seguretat</strong> – Promoparc (2022)</li>
+      <li><strong>Dependient</strong> – Carrefour (2022)</li>
+      <li><strong>Pràctiques en Administració i Logística</strong> – Diverses empreses (2021–2023)</li>
+      <li><strong>Voluntariats</strong> – Residència Jaume Nadal i Parroquia del Carme (2019)</li>
+    </ul>
+
+    <h3>Formació</h3>
+    <ul>
+      <li>ESO – Episcopal Lleida (2015–2019)</li>
+      <li>PFI Administració – Asonaman (2020)</li>
+      <li>Certificat Vigilant de seguretat</li>
+      <li>Certificat Auxiliar de logística i magatzem</li>
+      <li>Certificat Carretiller homologat</li>
+      <li>Certificat Manipulador d’aliments</li>
+    </ul>
+  </section>
+
+  <section id="projectes">
+    <h2>Projectes Rellevants</h2>
+    <p>
+      Encara que no disposo de projectes digitals, he gestionat i millorat processos en entorns laborals variats:
+    </p>
+    <ul>
+      <li>Organització i gestió de magatzem en Bricodepot i Lactalis Puleva.</li>
+      <li>Atenció i suport al client en Carrefour i Promoparc.</li>
+      <li>Suport administratiu en pràctiques amb gestió documental i logística.</li>
+      <li>Voluntariat amb suport a tasques escolars i comunitàries.</li>
+    </ul>
+  </section>
+
+  <section id="serveis">
+    <h2>Proposta de Valor i Serveis</h2>
+    <p>
+      Ofereixo <strong>compromís, versatilitat i actitud proactiva</strong> en àmbits com:
+    </p>
+    <ul>
+      <li>Magatzem i logística</li>
+      <li>Carretilla elevadora</li>
+      <li>Suport administratiu</li>
+      <li>Atenció al client</li>
+      <li>Vigilància privada</li>
+    </ul>
+    <p>
+      Em defineix el meu desig de <em>millorar contínuament</em> i adaptar-me a qualsevol entorn laboral amb eficàcia i respecte.
+    </p>
+
+    <div class="instagram-band" aria-label="Instagram photos">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=120&q=80" alt="Foto Instagram 1" />
+      <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af
